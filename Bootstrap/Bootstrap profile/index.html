@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css">
+    <!--bootstrap5 cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        .my-link-style:hover {
+            text-decoration: underline;
+        }
+
+        #feedback {
+            background: rgb(1, 28, 49);
+            padding: 7% 10%;
+        }
+
+        /* you can put this line in your .css Change the width, 
+border etc and colour to your liking*/
+
+        .hr-feedback {
+            border: 5px dotted white;
+            color: rgb(1, 28, 49);
+            border-bottom: none;
+            width: 50px;
+            margin: auto;
+        }
+
+        .carousel-item {
+            padding: 5% 15%;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .feedback-img {
+            width: 280px;
+            margin: auto;
+        }
+
+        .carousel-indicators {
+            bottom: -20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="bg-primary   ">
+            <!-- <h1 class="bg-primary text-white py-3 text-center"> Study with me</h1> -->
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <h1 class=" text-white py-3 text-center"> Study with me</h1>
+                </div>
+                <div class="col-lg-7 m-auto ">
+                    <ul class="nav ">
+                        <li class="nav-item ">
+                            <a class="nav-link my-link-style text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white my-link-style" href="#">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white my-link-style" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </header>
+        <main>
+            <!--collapse starts-->
+            <div class="service-profile bg-light text-center p-5">
+                <img class="d-block  m-auto border rounded-circle  img-fluid "
+                    src="https://imgs.search.brave.com/DqsflMHdQq7yraahXXeo3xSg3-X6YDLi8G_Vw4CeSVs/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/WlFkTFhFZ0JFdlIy/T2tjVlZiQk1RSGFG/aiZwaWQ9QXBp">
+                <h5>Hi!</h5>
+                <p>Est dolore clita dolor magna et eos aliquyam erat. Lorem.</p>
+
+                <a href="#demo" data-bs-toggle="collapse">Learn(collapse)</a>
+
+                <div id="demo" class="collapse">
+                    <p>I me i moment nothing gently. Nevernevermore kind to lamplight we soul whether that presently,
+                        above still and bird thee..And hesitating lenore of you lonely, thy bust faintly he soul
+                        desolate throws. My that hopes on
+                        human sad bird. Lord each this as lenore linking or, again for into said fantastic footfalls
+                        sent clasp more be. Desolate my this and stood is. Stood reply books into surely at if.</p>
+                </div>
+                <hr>
+            </div>
+            <!--collapse ends-->
+            <div class="service-section bg-light  ">
+                <div class="title text-center mb-3">
+                    <h3 class="fw-bold">Services</h3>
+                </div>
+                <div class=" row text-left text-md-center text-lg-center">
+                    <div class="col-lg-3 ">
+                        <i class=" mb-3 bg-primary text-white rounded-circle p-3 fa-2x fas fa-hands-helping"></i>
+                        <h5 class="text-uppercase">Web Designing</h5>
+                        <p class="small text-muted">Stet invidunt dolores ipsum duo eirmod sanctus diam. Nonumy erat
+                            dolore no
+                            sanctus sea
+                            accusam
+                            sanctus,
+                            kasd clita diam aliquyam.</p>
+
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <i class=" mb-3 bg-primary text-white rounded-circle p-3 fa-2x fas fa-hands-helping"></i>
+                        <h5 class="text-uppercase ">Web Designing</h5>
+                        <p class="small text-muted">Stet invidunt dolores ipsum duo eirmod sanctus diam. Nonumy erat
+                            dolore no
+                            sanctus sea
+                            accusam
+                            sanctus,
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <i class=" mb-3 bg-primary text-white rounded-circle p-3 fa-2x fas fa-hands-helping"></i>
+                        <h5 class="text-uppercase ">Web Designing</h5>
+                        <p class="small text-muted">Stet invidunt dolores ipsum duo eirmod sanctus diam. Nonumy erat
+                            dolore no
+                            sanctus sea
+                            accusam
+                            sanctus,
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <i class=" mb-3 bg-primary text-white rounded-circle p-3 fa-2x fas fa-hands-helping"></i>
+                        <h5 class="text-uppercase ">Web Designing</h5>
+                        <p class="small text-muted">Stet invidunt dolores ipsum duo eirmod sanctus diam. Nonumy erat
+                            dolore no
+                            sanctus sea
+                            accusam
+                            sanctus,
+
+                    </div>
+                </div>
+                <!-- video-8,dismissibale alert button -->
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                    <button class="btn-close" data-bs-dismiss="alert" area-label="Close"></button>
+                    Here is the dismiss alert button.
+                </div>
+
+                <!-- video=9,Blockquote and abbreviations -->
+                <div class="customer-review bg-light text-center ">
+                    <div class="title text-center mb-3">
+                        <h3 class="fw-bold">Blockquote and abbreviations
+                        </h3>
+                    </div>
+                    <hr>
+
+                    <div class="row ">
+                        <div class="col-lg-4">
+                            <!-- Blockquote  -->
+                            <blockquote class="blockquote">
+                                <i class=" bg-black text-white rounded-circle p-3   fa-2x fa fa-user"
+                                    aria-hidden="true"></i>
+
+                                <p>A well-known quote, contained in a blockquote element.<br>In this website can learn
+                                    <!--abbreviation starts--><abbr title="abbreviation">bt4,bt5</abbr>
+                                </p>
+                                <!--abbreviation ends-->
+                                <footer class="blockquote-footer">with.me in <cite>Youtube</cite></footer>
+                            </blockquote>
+                        </div>
+                        <div class="col-lg-4">
+                            <!-- Blockquote  -->
+                            <blockquote class="blockquote">
+                                <i class=" bg-black text-white rounded-circle p-3   fa-2x fa fa-user"
+                                    aria-hidden="true"></i>
+
+                                <p>A well-known quote, contained in a blockquote element.<br>This is
+                                    <!--abbreviation starts--><abbr title="abbreviation"> abbreviation</abbr>
+                                </p>
+                                <!--abbreviation ends-->
+                                <footer class="blockquote-footer">this is<cite>(blockquote-footer)</cite></footer>
+                            </blockquote>
+                        </div>
+                        <div class="col-lg-4">
+                            <!-- Blockquote  -->
+                            <blockquote class="blockquote">
+                                <i class=" bg-black text-white rounded-circle p-3   fa-2x fa fa-user"
+                                    aria-hidden="true"></i>
+
+                                <p>A well-known quote, contained in a blockquote element.<br>In this website can learn
+                                    <!--abbreviation starts--><abbr title="abbreviation ">bt4,bt5</abbr>
+                                </p>
+                                <!--abbreviation ends-->
+                                <figcaption class="blockquote-footer">with.me in <cite>Youtube</cite></figcaption>
+                            </blockquote>
+
+                        </div>
+                    </div>
+                    <!-- Blockquote ends  -->
+                    <!--Card section stars-->
+                    <hr class="p-2">
+                    <div class="cardsection  ">
+                        <div class="title text-center mb-3 ">
+                            <h3 class="fw-bold">Card</h3>
+                        </div>
+                        <div class="row  bg-danger">
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card one with header and footer</h4>
+                                        <p class="card-text">Pris des et des yeux des. Ne n'auraient géants escorté
+                                            écroulement la tout papillon bas enfants.papillon bas enfants.papillon bas
+                                            enfants.papillon bas enfants
+                                            vacheries, papillon bas enfants sais j'ai, plus.</p>
+                                        <a class="cark-link" href="#">Visit this playlist </a>
+                                    </div>
+                                    <div class="card-footer">footer</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://th.bing.com/th/id/R.e9269632a35bde692244801305d4e6f5?rik=TAjNB5FOe2wB1Q&riu=http%3a%2f%2forig09.deviantart.net%2f705e%2ff%2f2013%2f160%2fc%2fe%2fnyan_cat__cat__by_bymystiic-d68ckob.jpg&ehk=%2fyt0xvdJ3p9DilJD8LG24HN5ocbVF1Gch5cTmRaCGC4%3d&risl=&pid=ImgRaw&r=0">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Without Footer and heading </h4>
+                                        <p class="card-text">Pris des et des yeux des. Ne n'auraient géants escorté
+                                            écroulement la tout
+                                            vacheries, j'ai, plus.</p>
+
+                                        <!-- clickable card -->
+                                        <a class="card-link stretched-link" target="_blank"
+                                            href="https://www.youtube.com/watch?v=iWTB6YgZUDc&list=RDGMEM0s70dY0AfCwh3LqQ-Bv1xg&index=16">clickable
+                                            card
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!--Card section ends-->
+
+
+                            </div>
+                            <div class="col-lg-3">
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Pic in the bottom </h4>
+                                        <p class="card-text ">Pris des et des yeux des. Ne n'auraient géants
+                                            escorté
+                                            écroulement la tout
+                                            vacheries, papillon bas enfants sais j'ai, plus.</p>
+                                    </div>
+                                    <img class="card-img-bottom"
+                                        src="https://th.bing.com/th/id/R.e9269632a35bde692244801305d4e6f5?rik=TAjNB5FOe2wB1Q&riu=http%3a%2f%2forig09.deviantart.net%2f705e%2ff%2f2013%2f160%2fc%2fe%2fnyan_cat__cat__by_bymystiic-d68ckob.jpg&ehk=%2fyt0xvdJ3p9DilJD8LG24HN5ocbVF1Gch5cTmRaCGC4%3d&risl=&pid=ImgRaw&r=0">
+                                </div>
+                            </div>
+                            <!--card3-->
+                        </div>
+                    </div>
+                </div>.
+                <hr class="p-4">
+                <!--button ,button group,modifire-->
+                <div class="btn-group  ">
+                    <button class="  btn btn-outline-danger mb-3 ">Button one</button>
+                    <button class="  btn btn-outline-success mb-3 ">Button one</button>
+
+                </div>
+
+                <!--media object starts here-->
+                <div class="media-section mt-3">
+                    <!--title-->
+                    <div class="title text-center mb-3">
+                        <h3>Title-media object</h3>
+                    </div>
+                    <!-- pic,body,test-->
+                    <div class="d-flex border p-3  mt-3">
+                        <div class="flex-shrink-0">
+                            <img style="width: 80px;" class="rounded-circle"
+                                src="https://th.bing.com/th/id/OIP.ZkWew2lDem2ni6TM7aqbnAHaHa?pid=ImgDet&rs=1"
+                                alt="img1">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5>Hi! I'm Alex</h5>
+                            <p>Aire las de quedo el fría, lenta los bajo subía bajo mi de. Pero bajaba veces de los
+                                huevos
+                                pisotean.</p>
+                        </div>
+                    </div>
+                    <!-- pic,body,test-->
+                    <div class="d-flex border p-3  mt-3">
+
+                        <div class="flex-grow-1 ms-3">
+                            <h5>Hlw, Alex! </h5>
+                            <p>Aire las de quedo el fría, lenta los bajo subía bajo mi de. Pero bajaba veces de los
+                                huevos
+                                pisotean.</p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <img style="width: 80px;" class="rounded-circle"
+                                src="https://th.bing.com/th/id/OIP.Max3WKJhGwaeXHGjkLldEQHaHa?pid=ImgDet&rs=1"
+                                alt="img1">
+                        </div>
+                    </div>
+
+                    <!-- pic,body,test-->
+                    <!-- Center-aligned media
+                    For bootstrap5, class="align-items-center"
+                    Note:
+                    .flex-shrink-0 allowing the remaining items their necessary space.
+                    .flex-grow-1 elements uses all available space it can, -->
+                    <div class="d-flex border align-items-end p-3  mt-3">
+                        <div class="flex-shrink-0">
+                            <img style="width: 80px;" class="rounded-circle"
+                                src="https://th.bing.com/th/id/R.aa8085d74d1c59d118367696d1470b3d?rik=j5kyihN493KWJw&riu=http%3a%2f%2fp.favim.com%2forig%2f2018%2f10%2f04%2fcartoon-profile-pic-aesthetic-Favim.com-6406351.jpg&ehk=tekeZdl6J1mof5u893BSiBOClcMKGkn9Bnhb9wOhZqQ%3d&risl=&pid=ImgRaw&r=0"
+                                alt="img1">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5>I'm, Mark. How Are You Guys!!</h5>
+                            <p>Aire las de quedo el fría, lenta los bajo subía bajo mi de. Pero bajaba veces de los
+                                huevos
+                                pisotean.Myth huztuzwa ulud en scegegkel syrolmom ulud eses o ulud olelothya. Merth eses
+                                illen illen num urodum sepedyk tuled o,.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--media object starts here-->
+
+
+            <!--Button(list group)-->
+            <div class="student-list m-5 ">
+                <h5 class="text-center">List Item</h5>
+                <ul class="list-group ">
+                    <li class=" active bg-primary  list-group-item text-white">List one</li>
+                    <li class="bg-danger list-group-item text-white">List Two</li>
+                    <li class="bg-warning list-group-item text-white">List Three</li>
+                </ul>
+            </div>
+
+
+            <hr>
+            <!-- Taggaleable Dynamic Tab -->
+            <div class="other-section">
+                <h5 class=" p-3 text-center">Toggleable dynamic tab </h5>
+                <ul class="nav nav-tabs">
+
+                    <li class="nav-item"><a data-bs-toggle="tab" class="nav-link active" href="#edu">Education</a>
+                    </li>
+                    </li>
+
+                    <li class="nav-item"><a data-bs-toggle="tab" class="nav-link " href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item"><a data-bs-toggle="tab" class="nav-link " href="#hobby">Hobby</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class=" tab-content text-start">
+                <div id="edu" class="tab-pane active">
+                    <p>1.Veturadon resti atingos de kun kaj tiom iris kaj. Kontrauxe rapidaj estas
+                        marto vi kaptos
+                        gxiavoje turkoj mi siaj. OkupitaManchmal gezagt immer vögel bäume der denkst
+                        du, die
+                        dich ort du wangen hast darfst, der lange klingt der die..</p>
+                </div>
+                <div id="skill" class="tab-pane fade">
+                    <p>2.Veturadon resti atingos de kun kaj tiom iris kaj. Kontrauxe rapidaj estas
+                        marto vi kaptos
+                        gxiavoje turkoj mi siaj. OkupitaManchmal gezagt immer vögel bäume der denkst
+                        du, die
+                        dich ort du wangen hast darfst, der lange klingt der die..</p>
+                </div>
+                <div id="hobby" class="tab-pane fade">
+                    <p>3.Veturadon resti atingos de kun kaj tiom iris kaj. Kontrauxe rapidaj estas
+                        marto vi kaptos
+                        gxiavoje turkoj mi siaj. OkupitaManchmal gezagt immer vögel bäume der denkst
+                        du, die
+                        dich ort du wangen hast darfst, der lange klingt der die..</p>
+                </div>
+                <h5 class="text-center  text-danger">VS</h5>
+                <!-- Taggaleable Dynamic pill -->
+                <div class="other-section">
+                    <h5 class=" p-3 text-center">Toggleable dynamic pill </h5>
+                    <ul class="nav nav-pills">
+
+                        <li class="nav-item"><a data-bs-toggle="pill" class="nav-link active" href="#edu1">Education</a>
+                        </li>
+                        </li>
+
+                        <li class="nav-item"><a data-bs-toggle="pill" class="nav-link " href="#skill1">Skill</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class=" tab-content text-start ">
+                    <div id="edu1" class="tab-pane active">
+                        <p>1. Veturadon resti atingos de kun kaj tiom iris kaj. Kontrauxe rapidaj estas
+                            marto vi kaptos
+                            gxiavoje turkoj mi siaj. OkupitaManchmal gezagt immer vögel bäume der denkst
+                            du, die
+                            dich ort du wangen hast darfst, der lange klingt der die..</p>
+                    </div>
+                    <div id="skill1" class="tab-pane fade">
+                        <p>2. Veturadon resti atingos de kun kaj tiom iris kaj. Kontrauxe rapidaj estas
+                            marto vi kaptos
+                            gxiavoje turkoj mi siaj. OkupitaManchmal gezagt immer vögel bäume der denkst
+                            du, die
+                            dich ort du wangen hast darfst, der lange klingt der die..</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Table starts here-->
+            <div class="p-3">
+                <h2 class="text-center">Table</h2>
+                <table class="table table-bordered table-striped ">
+                    <thead>
+                        <tr>
+                            <th scope="col">Header1</th>
+                            <th scope="col">Qualification</th>
+                            <th scope="col">Header3</th>
+                            <th scope="col">Header4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"> Row-1</th>
+                            <td>SSC</td>
+                            <td>Motijheel Model</td>
+                            <td>5.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> Row-2</th>
+                            <td>Hsc</td>
+                            <td>Ideal School</td>
+                            <td>5.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> Row-3</th>
+                            <td>Bsc</td>
+                            <td>Daffodial univarsity</td>
+                            <td>4.42</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Table ends here-->
+            <!--form stars here-->
+            <form class="bg-dark text-white p-3 m-3   w-60">
+
+
+                <div class="mb-3 form-floating text-danger ">
+                    <label for="name" class="form-label">Div er vitorer level,input er vitore cole jabe(form-floating):
+                    </label>
+                    <input type="text" id="name" class="form-control" required>
+                    <div class="form-text">
+                        Additional information (class=form-text)
+                    </div>
+                </div>
+
+                <div class="mb-3  ">
+                    <label for="name" class="form-label">
+                        <p><abbr title="form-control-> Pura jayga nibe">Lable Name</abbr></p>
+                    </label>
+                    <input type="text" id="name" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">
+                        <p><abbr title="form-control-inline-> jototuk jayga lgbe tototuku nibe.">Email</abbr></p>
+                    </label>
+
+                    <input type="text" id="email" class="form-control-inline">
+
+                </div>
+                <div class="mb-3">
+                    <!--radio button-->
+                    <div class="form-check-inline">
+                        <input type="radio" class="form-check-input" name="gender" value="male" id=" gender">
+                        <label for="gender">
+                            <p><abbr title="input ->id and label ->for same hbe..for accebility">Male</abbr></p>
+                        </label>
+                    </div>
+
+                    <div class="form-check-inline"><input type="radio" value="female" class="form-check-input"
+                            name="gender" id="gender" />
+                        <label for="gender">
+                            <p><abbr title="name=gender,2 ta radio button e same deya hoyechye.">Female</abbr></p>
+
+                        </label>
+                    </div>
+                    <div class="mb-3">
+                        <div class="from-check">
+                            <input type="checkbox" class="form-check-input" id="tnc">
+                            <label for="tnc">
+                                <p><abbr title="checkbox">Accept Terms and
+                                        Condition</abbr></p>
+                            </label>
+                        </div>
+                    </div>
+                    <!--dropdown menu -->
+                    <div class="mb-3">
+
+                        <label for="department">
+                            <p><abbr title="Initially selected->CSE">Department</abbr></p>
+                        </label>
+                        <select name="jekono-name" id="depertment" class="form-select-inline">
+                            <option value="eee">EEE</option>
+                            <option value="llb">LLB</option>
+                            <option value="CSE" selected>
+                                CSE
+                            </option>
+
+                        </select>
+                    </div>
+                    <!--dropdown menu ends  -->
+
+                    <div class="mb-3">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+            <!--form ends here-->
+
+            <!--carousel start here-->
+            <div class=" text-white">
+                <section id="feedback">
+                    <div class="sectition-title">
+                        <h3 class="text-center">Carousel</h3>
+                        <hr class="hr-feedback">
+
+                        <div class="row">
+                            <div class="  col-lg-12 ">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                                    data-interval="200" data-pause="hover">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <p>Item1. Et dont cibles bons ni et et pieds, poteaux vers tremblais bleme
+                                                courus
+                                                quelque
+                                                ces cieux, sans les flamands ont.</p>
+                                            <img class="feedback-img m-3"
+                                                src="https://images.pexels.com/photos/424134/pexels-photo-424134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                                            <h5>Lotus</h5>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <p>Item 2. Et dont cibles bons ni et et pieds, poteaux vers tremblais bleme
+                                                courus
+                                                quelque
+                                                ces cieux, sans les flamands ont.</p>
+                                            <img class="feedback-img m-3"
+                                                src="https://images.pexels.com/photos/4851530/pexels-photo-4851530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                                            <h5>Lotus</h5>
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <p>Item 3. Et dont cibles bons ni et et pieds, poteaux vers tremblais bleme
+                                                courus
+                                                quelque
+                                                ces cieux, sans les flamands ont.</p>
+                                            <img class="feedback-img m-3"
+                                                src="https://images.pexels.com/photos/9385246/pexels-photo-9385246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                                            <h5>Lotus</h5>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+            </div>
+            <!--carousel ends here -->
+            <!--badge,tooltip,progressbar-->
+            <br>
+            <div class="bg-light p-5">
+                <div>
+                    <!--badge-->
+                    <button class="btn btn-primary">Button with badge<span
+                            class="badge bg-secondary rounded-pill">Badge</span></button>
+                    <!--tooltip-->
+
+                    <button class="btn bg-danger text-white" data-bs-toggle="tooltip" data-bs-placement="right"
+                        title="click for tooltip">Button with ToolTip </button>
+                    <!--progressbar-->
+                </div>
+                <br>
+                <p class="font-monospace ->">Progressbar</p>
+
+                <div class="progress   ">
+                    <div class="prograssbar bg-warning w-25 " role="progressbar" aria-valuemax="100" area-valuemin="25">
+                    </div>
+                    <div class="prograssbar bg-primary w-25 " role="progressbar" aria-valuemax="100" area-valuemin="25">
+                    </div>
+                    <div class="prograssbar bg-danger w-25 " role="progressbar" aria-valuemax="100" area-valuemin="25">
+                    </div>
+
+
+
+                </div>
+            </div>
+            <br>
+            <!--pregresbar ends-->
+            <!--Div float and clearing using clearfix-->
+            <div class="p-3">
+                <h2 class="text-center"> Div float and clearing using clearfix</h2>
+                <div class="p-2  form-control-lg clearfix  bg-primary">
+                    <!--clearing main div-->
+                    <h2 class="text-center text-white">Before (Div clearing)</h2>
+                    <br>
+                    <hr class="text-white">
+                    <div id="left-div" class=" p-1 text-center bg-danger border  float-start w-50">
+                        <h2>Left Div-float start use(w-50)</h2>
+                        <p class="text-center">Row1,width-50.<br>
+                            Left Div-float start use(width-50)</p>
+                    </div>
+
+                    <div id="right-div " class=" p-1 text-center bg-success border float-end w-25">
+                        <h2>Right Div-Float end use(w-25)</h2>
+                        <p text-center>Row1,width-50. Row2,width-50.Nile screen 2 vage jayga niye ney.ekhne widthy-25
+                            neya hoyechye.
+                        </p>
+
+                    </div>
+                    <div class="bg-warning border p-1 ">
+                        <h2 class=" text-center">Row-3</h2>
+                        <p class="  text-center">Row-3-- eikhne asar kotha na. Width row 1=50, row2=25 , DIV clear kora
+                            hyni
+                            tai jayga peye gese.</p>
+                    </div>
+
+
+                </div>
+                <!--after clear div-->
+                <br>
+
+                <div class="p-3 bg-black">
+                    <h2 class="text-center text-white">After (Div clearing)</h2>
+                    <br>
+                    <hr class="text-white">
+                    <div class="clearfix">
+                        <div id="left-div" class=" p-3 text-center bg-danger border  float-start w-50">
+                            <h2>Left Div-float start use(width-50)</h2>
+                            <p class="text-center p-2"> Row1,width-50.<br>
+                                Left Div-float start use(width-50)</p>
+                        </div>
+
+                        <div id="right-div " class=" p-3 text-center bg-success border float-end w-25">
+                            <h2 class="p-1 ">Right Div-Float end use(w-25)</h2>
+                            <p class=" p-1">Row1,width-50. Row2,width-50.Nile screen 2 vage jayga niye
+                                ney.ekhne
+                                widthy-25 neya
+                                hoyechye.
+                                <br><br>--- But DIv clear er por ney ni---
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="bg-warning border p-3 ">
+                        <h2 class=" text-center">Row-3</h2>
+                        <p class="text-center p-2 ">Row-3-- eikhne asar kotha na. Width row 1=50, row2=25 , DIV clear
+                            kora
+                            hyni
+                            tai jayga peye gese. <br><br>
+                            -- Div clear er por ekn tar obosthane cole aschye--</p>
+                    </div>
+
+                </div>
+                <!--svg icon start-->
+                <br>
+                <div class="p-3 bg-dark ">
+                    <h2 class=" text-center text-white">
+                        <p><abbr
+                                title="mx-auto,d-block use kore center e ana hoise button center & row justify-content-center use kore button r vitorer img and text center">Button
+                                with
+                                icon</abbr></p>
+                    </h2>
+                    <button class="btn btn-primary row justify-content-center  mx-auto d-block "><svg
+                            xmlns="http://www.w3.org/2000/svg" width="35" height="66" fill="currentColor"
+                            class="bi bi-filetype-svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM0 14.841a1.13 1.13 0 0 0 .401.823c.13.108.288.192.478.252.19.061.411.091.665.091.338 0 .624-.053.858-.158.237-.105.416-.252.54-.44a1.17 1.17 0 0 0 .187-.656c0-.224-.045-.41-.135-.56a1 1 0 0 0-.375-.357 2.027 2.027 0 0 0-.565-.21l-.621-.144a.97.97 0 0 1-.405-.176.37.37 0 0 1-.143-.299c0-.156.061-.284.184-.384.125-.101.296-.152.513-.152.143 0 .266.023.37.068a.625.625 0 0 1 .245.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.199-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.552.05-.776.15-.225.099-.4.24-.528.421-.127.182-.19.395-.19.639 0 .201.04.376.123.524.082.149.199.27.351.367.153.095.332.167.54.213l.618.144c.207.049.36.113.462.193a.387.387 0 0 1 .153.326.512.512 0 0 1-.085.29.559.559 0 0 1-.256.193c-.111.047-.249.07-.413.07-.117 0-.224-.013-.32-.04a.837.837 0 0 1-.248-.115.578.578 0 0 1-.255-.384H0Zm4.575 1.09h.952l1.327-3.999h-.879l-.887 3.138H5.05l-.897-3.138h-.917l1.339 4Zm5.483-3.293c.076.152.123.316.14.492h-.776a.797.797 0 0 0-.096-.249.689.689 0 0 0-.17-.19.707.707 0 0 0-.237-.126.963.963 0 0 0-.3-.044c-.284 0-.506.1-.664.302-.157.2-.235.484-.235.85v.497c0 .235.033.44.097.616a.881.881 0 0 0 .305.413.87.87 0 0 0 .518.146.965.965 0 0 0 .457-.097.67.67 0 0 0 .273-.263c.06-.11.09-.23.09-.364v-.254h-.823v-.59h1.576v.798c0 .193-.032.377-.096.55a1.29 1.29 0 0 1-.293.457 1.37 1.37 0 0 1-.495.314c-.198.074-.43.111-.698.111a1.98 1.98 0 0 1-.752-.132 1.447 1.447 0 0 1-.534-.377 1.58 1.58 0 0 1-.319-.58 2.482 2.482 0 0 1-.105-.745v-.507c0-.36.066-.677.199-.949.134-.271.329-.482.583-.633.256-.152.564-.228.926-.228.238 0 .45.033.635.1.188.066.348.158.48.275.134.117.238.253.314.407Z" />
+                        </svg>SVG icon Button</button>
+                </div>
+                <!--svg icon ends-->
+                <!--ends float and div clearing-->
+                <!--Display change starts-->
+                <br>
+                <div class="border  ">
+                    <div id="display-position ">
+                        <h2 class="text-center   text-black fw-bold">Display</h2>
+
+                        <div id="displayclass=" class="bg-dark text-white">
+
+
+                            <h2 class="text-center text-primary">Before display change</h2>
+                            <hr class="hr-feedback">
+
+                            <div>
+                                <h6 class="text-center">Button as Default INLINE block</h6>
+                                <button class=" btn btn-primary">Button One </button>
+                                <button class=" btn btn-primary">Button Two</button>
+
+                                <h6 class="text-center">Div as Block element</h6>
+
+                                <div class="bg-success">Div One </div>
+                                <div class="bg-primary">Div Two </div>
+                            </div>
+                            <div class="bg-light m-3">
+                                <p class="text-center text-dark   p-3"><span class="bg-danger fw-bold">Note:
+                                        &nbsp;</span>We know, <span class="text-danger fw-bold">Div</span> is <span
+                                        class="text-success fw-bold ">block</span>
+                                    element
+                                    & <span class="text-warning fw-bold">BUTTON</span> is <span
+                                        class="text-primary fw-bold">inline</span>
+                                    element.But we
+                                    can set
+                                    <span class="text-warning fw-bold">BUTTON</span> as
+                                    <span class="text-success fw-bold ">block</span> and <span
+                                        class="text-danger fw-bold">Div</span> as
+                                    <span class="text-primary fw-bold">inline</span>
+                                    by use of <span class="bg-warning fw-bold">DISPLAY.</span>
+                                </p>
+
+                            </div>
+                            <br>
+                        </div>
+
+
+                    </div>
+                    <h2 class="text-center fw-bold ">VS</h2>
+
+                    <div class="bg-dark text-white">
+
+
+                        <h2 class="text-center text-primary">After display change</h2>
+                        <hr class="hr-feedback text-black ">
+
+                        <div class="bg-dark text-white">
+                            <h6 class="text-center">Button as Default INLINE block</h6>
+                            <button class=" btn btn-primary d-block">Button One </button>
+                            <button class=" btn btn-primary d-block">Button Two</button>
+
+                            <h6 class="text-center">Div as Block element</h6>
+
+                            <div class="bg-success d-inline">Div One </div>
+                            <div class="bg-primary d-inline">Div Two </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <!--end display-->
+                <div class="bg-light">
+                    <!--position sticky,fiexd,relative-absolute-->
+                    <!--relative-->
+                    <div class="bg-dark position-relative text-white w-100">
+                        <div id="Position">
+                            <h2 class="text-center fw-bold">Position</h2>
+                            <hr>
+                            <h3>Relative</h3>
+
+
+
+                            <div>
+                                <div class="  bg-success w-50">
+                                    <!--fiexd position-->
+
+                                    <div class="  position-fixed top-0  start-0 "
+                                        style="height:80px; width: 100PX; background-color: palegreen; opacity: .5;  ">
+
+                                        <p class="text-center text-black fw-bold ">Position Fixed </p>
+                                    </div>
+                                    <!--sticky-->
+
+                                    <div class="bg-primary position-sticky top-50 start-50 w-100 "
+                                        style="height:100px; ">
+                                        <button>
+                                            Button Position</button>
+                                        <p class="text-center">Sticky position</p>
+                                    </div>
+                                    <p>
+                                        Quel le fait qui déplore abondent. Renversée
+                                        qu'elle gentillesse
+                                        aboutit cet.
+                                        Tournons trôner autour
+                                        d'une chaque, bicéphale et comme beauté vois, approchons yeux et et et. Beauté
+                                        «la pour me
+                                        véritable
+                                        hélas, elle termine autour divines jaillir non exquise robuste. Lits la hélas
+                                        dont gaze la ronge
+                                        vécu
+                                        extase, airQuel le fait qui déplore abondent. Renversée qu'elle gentillesse
+                                        aboutit cet.
+                                        Tournons
+                                        trôner
+                                        autour
+                                        d'une chaque, bicéphale et comme beauté vois, approchons yeux et et et. Beauté
+                                        «la pour me
+                                        véritable
+                                        hélas, elle termine autour divines jaillir non exquise robuste. Lits la hélas
+                                        dont gaze la ronge
+                                        vécu
+                                        extase, airQuel le fait qui déplore abondent. Renversée qu'elle gentillesse
+                                        aboutit cet.
+                                        Tournons
+                                        trôner
+                                        autour
+                                        d'une chaque, bicéphale et comme beauté vois, approchons yeux et et et. Beauté
+                                        «la pour me
+                                        véritable
+                                        hélas, elle termine autour divines jaillir non exquise robuste. Lits la hélas
+                                        dont gaze la ronge
+                                        vécu
+                                        extase, airQuel le fait qui déplore abondent. Renversée qu'elle gentillesse
+                                        aboutit cet.
+                                        Tournons
+                                        trôner
+                                        autour
+                                        d'une chaque, bicéphale et comme beauté vois, approchons yeux et et et. Beauté
+                                        «la pour me
+                                        véritable
+                                        hélas, elle termine autour divines jaillir non exquise robuste. Lits la hélas
+                                        dont gaze la ronge
+                                        vécu
+                                        extase, airQuel le fait qui déplore abondent. Renversée qu'elle gentillesse
+                                        aboutit cet.
+                                        Tournons
+                                        trôner
+                                        autour
+                                        d'une chaque, bicéphale et comme beauté vois, approchons yeux et et et. Beauté
+                                        «la pour me
+                                        véritable
+                                        hélas, elle termine autour divines jaillir non exquise robuste. Lits la hélas
+                                        dont gaze la ronge
+                                        vécu
+                                        extase, airQuel le fait qui déplore abondent. Renversée qu'elle gentillesse
+                                        aboutit cet.
+                                        Tournons
+                                        trôner
+                                        autour
+                                        d'une chaque, bicéphale et comme beauté vois, approchons yeux et et et. Beauté
+                                        «la pour me
+                                        véritable
+                                        hélas, elle termine autour divines jaillir non exquise robuste. Lits la hélas
+                                        dont gaze la ronge
+                                        vécu
+                                        extase, air frémir l'art face grimace toujours soucieux fleuve l'abri autour,
+                                        pleure.</p>
+
+                                    <!-- absolute -->
+                                    <div>
+                                        <button class=" bg-warning position-absolute top-50 start-50 translate-middle ">
+                                            Absolute
+
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <!--Model starts-->
+
+                <div class="border bg-info p-4">
+                    <!-- Button trigger modal -->
+                    <h3 class="text-center fw-bold ">Model</h3>
+                    <div class="d-flex justify-content-center align-content-center"><button type="button"
+                            class="btn btn-danger  " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button></div>
+
+                    <P>
+                    <h4>Note:</h4>Atribute <u class="fw-bold">data-bs-toggle="modal"</u> use korbo Button
+                    trigger
+                    modal er jnno,
+                    target
+                    <span class="bg-warning">
+                        data-bs-target
+                        =" #exampleModal"</span>& modal er id
+                    same
+                    hbe.
+                    <span class="bg-warning">id="exampleModal"</span>.Modal dialog er vitor modal content
+                    thakbe.
+                    content er 3 ti
+                    part hbe. hader,body,footer.Header er 2 ti part. title and dismiss button.<span
+                        class="bg-success">data-bs-dismiss="modal"</span>.
+                    </P>
+
+                </div>
+                <!-- Modal -->
+                <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Model Body
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--model-ends-->
+            </div>
+
+    </div>
+    </div>
+
+    </div>
+    </main>
+    </div>
+    <footer class="bg-dark">
+        <!-- pagination -->
+        <ul class="pagination text-primary py-3 justify-content-center">
+            <li class="page-item"> <a class="page-link" href="#">1</a></li>
+            <li class="page-item"> <a class="page-link" href="#">2</a></li>
+            <li class="page-item"> <a class="page-link" href="#">3</a></li>
+            <li class="page-item"> <a class="page-link" href="#">4</a></li>
+
+
+        </ul>
+    </footer>
+    </div>
+
+
+
+    <!--bootstrap5-->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
