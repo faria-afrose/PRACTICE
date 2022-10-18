@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>one dimensional array</title>
+</head>
+
+<body>
+    <script>
+        console.clear();
+
+        //1.one Dimensional array(without loop)
+        var names = ["A", "B", "C", "D", "E", "F", "G", "H"];
+        console.log("1.one Dimensional array(without loop)");
+        console.log(names[0]);
+        console.log(names[1]);
+        console.log(names[2]);
+        console.log(names[3]);
+        console.log(names[4]);
+        console.log(names[5]);
+        console.log(names[6]);
+        console.log(names[7]);
+        //2.one Dimensional array(with loop)
+        var names = ["A", "B", "C", "D", "E", "F", "G", "H"];
+        console.log("2.one Dimensional array(with loop)");
+
+        for (var x = 0; x < 8; x++) {
+            console.log(names[x]);
+
+        }
+        //3.Receive 1D array called score, return the highest score
+
+        function heightsScore(s) {
+            var max = s[0];
+            for (var i = 1; i < s.length; i++) {
+                if (max < s[i]) {
+                    max = s[i];
+                }
+
+            } return max;
+
+        }
+        var scores = [50, 29, 38, 49, 80, 75, 91, 95.6];
+        var maxScore = heightsScore(scores);
+
+        console.log("3.Receive 1D array called score, return the Highest score: " + maxScore)
+        //4.Two Dimensional Array(without loop)
+        var grades = [["A", 95], ["B", 86], ["C", 96], ["D", 35], ["E", 55], ["F", 20]];
+
+        console.log("4.Two Dimensional Array");
+        console.log(grades[0][0]);
+        console.log(grades[0][1]);
+        console.log(grades[1][0]);
+        console.log(grades[1][1]);
+        console.log(grades[2][0]);
+        console.log(grades[2][1]);
+        console.log(grades[3][0]);
+        console.log(grades[3][1]);
+        console.log(grades[4][0]);
+        console.log(grades[4][1]);
+        console.log(grades[5][0]);
+        console.log(grades[5][1]);
+        //5.Two Dimensional Array(with loop)
+        var grades = [["A", 95], ["B", 86], ["C", 96], ["D", 35], ["E", 55], ["F", 20]];
+        console.log("5.Two Dimensional Array(with loop):");
+        for (var i = 0; i < 6; i++) {
+            for (var y = 0; y < 2; y++) {
+                console.log(grades[i][y]);
+            }
+        }
+        //6.Function called highestRunScore
+        //Array called playerInfo
+        // Return the name of player based on high score 
+        function highestRunScore(info) {
+            var heightsScore = info[0][1];
+            var heightsScorer = info[0][0];
+
+            for (var i = 1; i < info.length; i++) {
+                if (heightsScore < info[i][1]) {
+                    heightsScore = info[i][1];
+                    heightsScorer = info[i][0];
+                }
+            } return heightsScorer;
+        }
+        var playerInfo = [["A", 95], ["B", 98], ["C", 72], ["D", 49]];
+        var Scorer = highestRunScore(playerInfo);
+        console.log("6.Function called highestRunScore Array called playerInfo Return the name of player based on ,Heigh Score: " + Scorer);
+
+    </script>
+</body>
+
+</html>

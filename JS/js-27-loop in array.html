@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop in Array</title>
+</head>
+
+<body>
+    <script>
+        //1.without using lop
+        var num = [10, 20, 30, 40, 50, 60, 70];
+        //just for headline
+        console.log("1.without using loop:");
+
+
+        console.log(num[0]);
+        console.log(num[1]);
+        console.log(num[2]);
+        console.log(num[3]);
+        console.log(num[4]);
+        console.log(num[5]);
+        console.log(num[6]);
+
+        //2.with loop
+
+        var num = [10, 20, 30, 40, 50, 60, 70];
+        console.log("2.with loop:");
+
+        for (var i = 0; i < 7; i++) {
+            console.log(+ num[i]);
+
+        }
+        //3.sum of numbers
+        var num = [1, 2, 3, 4, 5];
+        sum = 0;
+        console.log("3.sum of numbers:");
+
+
+        for (var i = 0; i < 5; i++) {
+            console.log(num[i]);
+            var sum = sum + num[i];
+        }
+        console.log("sum= " + sum);
+        //4.Input theke number nibo
+
+        var num = new Array();
+        console.log("4.Input theke number nibo:");
+        for (var i = 0; i < 5; i++) {
+            num[i] = parseInt(prompt("Enter numbers:"));
+
+        }
+        var sum = 0;
+        for (var i = 0; i < 5; i++) {
+            console.log(num[i]);
+
+            var sum = sum + num[i];
+        }
+        console.log("sum= " + sum);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //1. 5 ta variable r  array create 
+        var names = new Array(5);
+        names[0] = "A-start";
+        names[1] = "B";
+        names[2] = "C";
+        names[3] = "D";
+        names[4] = "E-end";
+
+        document.write("<br>" + "1.Array for 5 variable:" + "<br>" + names);
+        //2. undefine value cz  ei index nei
+        document.write("<br>" + "undefine value:" + "<br>" + names[5]);
+
+        // 3. shortcut way-Array create
+        var newName = ["A", "B", "C", "D"];
+        document.write("<br>" + " 2.Shortcut way for array:" + "<br>" + newName);
+
+        //4. Array Function -push
+
+
+        var realNames = ["Name1", "name2", "name3", "name4", "name5"];
+        realNames.push("Pushed-Name6", "pushed-Name7");
+        document.write("<br>" + "3.For push:" + "<br>" + realNames);
+
+        //5. Array Function -pop
+
+        var realName2 = ["Name1", "name2", "name3", "name4( next element is pop out)", "name5"];
+        realName2.pop();
+        document.write("<br>" + "4.For pop:" + "<br>" + realName2);
+
+        //6. array juskto kora- continent
+
+        var country1 = ["Bangladesh",
+            "Pakistan", "Srilanka"
+        ];
+        var country2 = ["India", "Afganishtan", "Nepal"];
+        var country = country1.concat(country2);
+
+        document.write("<br>" + "5.For concat:" + "<br>" + country);
+
+    </script>
+</body>
+
+</html>

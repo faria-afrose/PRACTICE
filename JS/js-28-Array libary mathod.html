@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //1.Normal array:
+        var names = ["First", "Second", "C", "D", "E", "F", "Last"];
+        console.log("1.Normal array-");
+        console.log(names)
+
+        //2.Shifting:(pop r moto remove kore but first element)
+        var names = ["First", "Second", "C", "D", "E", "F", "Last"];
+        names.shift();
+        console.log("2.Shifting-");
+        console.log(names)
+        //3.Unshifting:
+        var names = ["First", "Second", "C", "D", "E", "F", "Last"];
+        names.unshift("New");
+        console.log("3.Unshifting-");
+        console.log(names)
+        //4.Splice:(Adding) (2,0,"Karim,"Rahim") , 
+        //  2->index 2 te add hbe,
+        //  0-> remove hbe na kichu
+        var names = ["First", "Second", "C", "D", "E", "F", "Last"];
+        names.slice(3, 0, "Karim", "Rahim");
+        console.log("4.Slice(adding):-");
+        console.log(names)
+
+        //4.Splice(Removing):
+        //(2,1,"Karim,"Rahim") ,
+        //  2->index 2 te add hbe,
+        //  0-> add er por ,remove hbe 1 ta element 
+        var names = ["First", "Second", "C", "D", "E", "F", "Last"];
+        names.slice(3, 1, "Karim", "Rahim");
+        console.log("4.Splice(removing):-");
+        console.log(names)
+        //5. splice removing 1 theke 2 ta element delete hbe
+        //  (1,2,"A,"B)
+        console.log("5.Slice(removing):-");
+
+        var oldArray = ["First", "Second", "C", "D", "E", "F", "Last"];
+        console.log(oldArray)
+
+        // slice crate new array 
+        var newArray = oldArray.slice(1);
+        console.log("new Array crate after slice-")
+        console.log(newArray)
+        //Main Array don't change at all
+
+        console.log("Old Array-")
+        console.log(oldArray)
+        //7.Sorted:
+        // 7.Sorted: Alphabetically
+        console.log("7.Sorted:Alphabetically -");
+        var names = ["back", "lay", "chan", "xuimin", "suho", "chen", "sehun", "kai", "d.o"]
+        var sortedName = names.sort();
+        console.log(sortedName)
+        //7.Sorted:reverse sort
+        console.log("7.Sorted:reverse sort -");
+        var reverseSortName = names.reverse();
+        console.log(reverseSortName)
+        // 8.Number sorting:
+        //sort method num mathod niye kj kore na,alphabet niye kaj kore
+        //Anonymous function niye kj korte hbe
+        // (function () {
+        //Note: anonymous function r name thake na;
+        // });
+        var number = [2, 5, 8, 4, 3, 6, 7, 1, 0];
+        number.sort(function (a, b) {
+            return a - b; //compare korbe konta positive
+
+        });
+        console.log(number)
+
+
+    </script>
+</body>
+
+</html>

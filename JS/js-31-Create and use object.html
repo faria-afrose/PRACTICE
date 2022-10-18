@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+
+<body>
+    <script>
+        //1.object create :
+
+        var students = {
+            name: "Aki",
+            age: 27,
+            cgpa: 3.92,
+            lang: ["Bengali", "English"],
+        };
+
+        //print value of an  object:
+        console.log("1.object create  and print value of an object  :  " + students.age);
+
+        //2.constrictor: same type object bar bar create na kore template toiri korbo
+        // template create
+
+
+        function ConstrictorName(name, age, cgpa, lang) {
+            //objects details receive        
+            this.name = name;
+            this.age = age;
+            this.cgpa = cgpa;
+            this.lang = lang;
+        }
+
+        //create objects
+        var objectName1 = new ConstrictorName("Aki", 27, 3.92, ["Bengali", "English"]);
+        var objectName2 = new ConstrictorName("kai", 23, 2.92, ["Bengali", "English"]);
+        var objectName3 = new ConstrictorName("chan", 28, 4.00, ["Bengali", "English"]);
+
+
+
+        //print
+        console.log("2.constrictor: same type object bar bar create na kore template toiri korbo-");
+
+        console.log(objectName1.name);
+        console.log(objectName2.age);
+        console.log(objectName3.cgpa);
+        //3.  Function under constrictor 
+        console.log("3.  Function under constrictor -")
+        function ConstrictorName(name, age, cgpa, lang) {
+
+            //objects details receive        
+            this.name = name;
+            this.age = age;
+            this.cgpa = cgpa;
+            this.lang = lang;
+
+            //function under constrictor
+            this.display = function () {
+                //jegulo print korbo 
+                console.log(this.name);
+                console.log(this.age);
+                console.log(this.cgpa);
+                console.log(this.lang);
+
+            }
+        }
+
+        //create objects
+        var objectName1 = new ConstrictorName("Aki", 27, 3.92, ["Bengali", "English"]);
+        var objectName2 = new ConstrictorName("kai", 23, 2.92, ["Bengali", "English"]);
+        var objectName3 = new ConstrictorName("chan", 28, 4.00, ["Bengali", "English"]);
+
+
+        objectName1.display();
+        objectName2.display();
+        objectName3.display();
+
+    </script>
+</body>
+
+</html>

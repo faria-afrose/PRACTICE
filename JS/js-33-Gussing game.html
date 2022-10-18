@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game:</title>
+</head>
+
+<body>
+    <script>
+        //Guess a number from 1 to 5,
+        //Genarate random number between 1 to 5
+        //If guess number match random number
+        //run the game for 5 times
+        //show the number of won's and lost
+        var numOfWon = 0;
+        var numOfLost = 0;
+
+        for (var i = 0; i <= 5; i++) {
+            var numbers = parseInt(prompt("Enter number 1 to 5:"));
+            var randomNumber = Math.floor(Math.random() * 5) + 1;
+            if (numbers == randomNumber) {
+
+                console.log("You have won the game.Random number was " + randomNumber);
+                numOfWon++;
+            }
+            else {
+                console.log("You have Lost the game.Random number was " + randomNumber);
+                numOfLost++;
+            }
+
+        }
+        document.write("Number of won=" + numOfWon + "<br>");
+        document.write("Number of Lost=" + numOfLost + "<br>");
+
+    </script>
+</body>
+
+</html>

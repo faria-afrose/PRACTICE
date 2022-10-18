@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var num1 = prompt("Enter first number:");
+        var num2 = prompt("Enter first number:"),
+            lineBreak = "<br />", result;
+        num1 = parseInt(num1, 10);
+        num2 = parseInt(num2, 10);
+
+        result = num1 + num2;
+        document.write(num1 + "+" + num2 + "=" + result + lineBreak);
+
+        result = num1 - num2;
+        document.write(num1 + "-" + num2 + "=" + result + lineBreak);
+
+        result = num1 * num2;
+        document.write(num1 + "*" + num2 + "=" + result + lineBreak);
+
+        result = num1 / num2;
+        document.write(num1 + "/" + num2 + "=" + result + lineBreak);
+
+        result = num1 % num2;
+        document.write(num1 + "%" + num2 + "=" + result + lineBreak);
+
+    </script>
+</body>
+
+</html>
