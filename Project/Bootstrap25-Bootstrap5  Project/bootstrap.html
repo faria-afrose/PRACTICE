@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-bootstrap</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css">
+    <!--bootstrap5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- css stylesheet -->
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handlee&family=Italianno&family=Montserrat&family=Roboto:wght@400;700;900&family=Rubik+Marker+Hatch&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <div class="container ">
+        <header>
+            <nav class="navbar navbar-expand-md   ">
+
+
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#div-id"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars navbar-icon"></i></span>
+                </button>
+
+                <a href="#" class="navbar-brand ">
+                    <img class="rounded-circle "
+                        src="https://img.freepik.com/free-vector/education-logo-template_1107-22.jpg?w=740&t=st=1660215294~exp=1660215894~hmac=e0b0baa0f28a6ad1357de09d43f40705f12bb86842df0283e6df03b48b89b484"
+                        alt="logo" style="width: 100px; ">
+                </a>
+                <!--target div-->
+                <div class="collapse navbar-collapse   " id="div-id">
+                    <ul class=" navbar-nav   ms-auto">
+                        <li class="nav-item active "><a class="nav-link text-center  text-md-left" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link  text-center  text-md-left" href="#about-me">About
+                                Me</a></li>
+                        <li class="nav-item"><a class="nav-link  text-center  text-md-left "
+                                href="#tutorials">Tutorials</a></li>
+                        <li class="nav-item"><a class="nav-link  text-center  text-md-left "
+                                href="#feedback">Feedback</a></li>
+                        <li class="nav-item"><a class="nav-link  text-center  text-md-left "
+                                href="#contact-me">Contact</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </nav>
+            <section id="banner-section ">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-content  text-center mb-5 ">
+                        <h1 class="fw-bold">Learn something new!!!</h1>
+                        <button class=" button-class btn btn-lg btn-warning ms-3" onclick="location.href='#tutorial'"><i
+                                class=" fas fa-play ms-2 "></i>Tutorials</button>
+
+                        <!--button ka link er moto use-->
+                        <button class="button-class btn btn-lg btn-warning ms-3 "
+                            onclick="window.open('https://www.youtube.com/watch?v=kgx4WGK0oNU')"
+                            class="request-callback"><i class="fab fa-youtube ms-2"></i>
+                            Subscribe</button>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <!--section feature starts-->
+
+            <section id="feature">
+                <div class="row text-center">
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="feature-col">
+                            <i class=" bg-warning fas fa-hand-holding-usd fa-3x icon-style rounded-circle"> </i>
+                            <h3 class="fw-bold">Free to use</h3>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas atque
+                                veniam
+                                delectus
+                                quia quos modi?</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="feature-col">
+                            <i class="bg-warning fas fa-hand-holding-usd fa-3x icon-style rounded-circle"> </i>
+                            <h3 class="fw-bold">Free to use</h3>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas atque
+                                veniam
+                                delectus
+                                quia quos modi?</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="feature-col">
+                            <i class=" bg-warning fas fa-hand-holding-usd fa-3x icon-style rounded-circle"> </i>
+                            <h3 class="fw-bold">Free to use</h3>
+                            <p class="small">olpo text er jnno choto hoye jeto size baki gulor theke tai large screen r
+                                jnno d-lg-flex and
+                                d-block. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--section feature ends-->
+            <section id="about-me">
+                <div class="section-title">
+                    <h3 class="text-center">About Me</h3>
+                    <hr class="hr-style  " style="width:100px; margin: auto; border-color: black;">
+                </div>
+                <div class="row mb-3 m-lg-0">
+                    <div class="col-lg-5">
+                        <div class="basic-desc text-center  text-lg-start"><i
+                                class=" bg-dark far fa-user fa-2x rounded-circle icon-style"></i></i>
+                            <h5 class="fw-bold">Personal Info</h5>
+
+                            <p>Name : Faria Afrose</p>
+                            <p>Profession : Student</p>
+                            <p>Current address : Dhaka,Bangladesh</p>
+                            <p>Website : <a class="text-dark " href="https://www.facebook.com/groups/370833201411353"
+                                    target="blank">www.studywith-faria.com</a></p>
+                            <p><a href="https://www.dropbox.com/s/hfdl7x9cdnmn4i5/cv.pdf?dl=1 ">
+
+                                    <button class=" btn btn-warning m-auto">Downloaded
+                                        CV</button></a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--about me ends-->
+                <div class="row mb-3 m-lg-0">
+                    <!-- 7 ta colom faka thakbe large screen e -->
+                    <div class="col-lg-7"></div>
+                    <div class="col-lg-5">
+                        <div class="achive-disc text-center  text-lg-start"><i
+                                class=" bg-dark far fa-user fa-2x rounded-circle icon-style"></i></i>
+                            <h5 class="fw-bold ">Achievement</h5>
+
+                            <p><span>100% waiver: </span>Tempor lorem eirmod labore et lorem dolore diam diam nonumy
+                                diam. Et sit labore accusam diam diam sit dolor. Dolor.</ <p>
+                            <p><span>100% waiver: </span>Tempor lorem eirmod labore et lorem dolore diam diam nonumy
+                                diam. Et sit labore accusam diam diam sit dolor. Dolor.</ <p>
+                            <p><span>100% waiver: </span>Tempor lorem eirmod labore et lorem dolore diam diam nonumy
+                                diam. Et sit labore accusam diam diam sit dolor. Dolor.</ <p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--ends-->
+                <div class="row mb-3 m-lg-0">
+                    <div class="col-lg-5">
+                        <div class="achive-disc text-center  text-lg-start"><i
+                                class=" bg-dark far fa-user fa-2x rounded-circle icon-style"></i></i>
+                            <h5 class="fw-bold">Education</h5>
+
+                            <p>Name : Faria Afrose</p>
+                            <p>Profession : Student</p>
+                            <p>Current address : Dhaka,Bangladesh</p>
+                            <p>Website : <a class="text-dark " href="https://www.facebook.com/groups/370833201411353"
+                                    target="blank">www.studywith-faria.com</a></p>
+                            <p><a href="https://www.dropbox.com/s/hfdl7x9cdnmn4i5/cv.pdf?dl=1 ">
+
+                                    <button class=" btn btn-primary m-auto">Downloaded
+                                        CV</button></a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!--ends-->
+
+
+
+                <div class="row mb-3 m-lg-0">
+                    <!-- 7 ta colom faka thakbe large screen e -->
+                    <div class="col-lg-7"></div>
+                    <div class="col-lg-5">
+                        <div class="basic-desc text-center  text-lg-start "><i
+                                class=" bg-dark far fa-user fa-2x rounded-circle icon-style"></i></i>
+                            <h5 class="fw-bold">Personal Info</h5>
+
+                            <p>Name : Faria Afrose</p>
+                            <p>Profession : Student</p>
+                            <p>Current address : Dhaka,Bangladesh</p>
+                            <p>Website : <a class="text-danger " href="https://www.facebook.com/groups/370833201411353"
+                                    target="blank">www.studywith-faria.com</a></p>
+                            <p><a href="https://www.dropbox.com/s/hfdl7x9cdnmn4i5/cv.pdf?dl=1 ">
+
+                                    <button class=" btn btn-danger m-auto">Downloaded
+                                        CV</button></a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!--ends-->
+                <div class="row mb-3 m-lg-0">
+                    <div class="col-lg-5  ">
+                        <div class=" skill-desc text-center text-lg-start  ">
+                            <i class=" bg-dark icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                            <h5 class="fw-bold">SKILL</h5>
+
+                            <table class="m-auto m-md-auto  m-lg-0  ">
+                                <tr>
+                                    <!-- You are setting text-align: center on the div, so the inline children of the div will be centred, but the table is not
+                                                            inline, so it isn't affected (some of the table cells contents might be, depending on inheritance). -->
+                                    <td>HTML</td>
+                                    <td><span class="class-name-star text-success">
+                                            <i class=" fas fa-star"></i>
+                                            <i class="  fas fa-star"></i>
+                                            <i class=" fas fa-star"></i>
+                                            <i class=" fas fa-star"></i>
+                                            <i class=" fas fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>CSS</td>
+                                    <td><span class="class-name-star text-danger">
+                                            <i class=" fas fa-star"></i>
+                                            <i class=" fas fa-star-half">
+
+                                            </i>
+                                            <i class=" fas fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>BOOTSTRAP</td>
+                                    <td><span class="class-name-star">
+                                            <i class=" fas fa-star"></i>
+                                            <i class="  fas fa-star"></i>
+                                            <i class=" fas fa-star"></i></span></td>
+                                </tr>
+                                <tr>
+                                    <td>JS</td>
+                                    <td><span class="class-name-star text-info"><i class=" fas fa-star"></i>
+                                            <i class="  fas fa-star-half"></i>
+                                            </i></span></td>
+                                </tr>
+                            </table>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="tutorials">
+                <div class="section-title">
+                    <h3 class="text-center mb-3 text-white">Tutorials</h3>
+                    <hr class="hr-style mb-5 border-white">
+                </div>
+                <div class=" row text-center mb-3 ">
+                    <div class=" col-lg-3 col-md-6 col-sm-12 d-block d-lg-flex">
+                        <div class="card mb-5 m-lg-0  ">
+                            <img class="card-img-top"
+                                src="https://th.bing.com/th/id/R.b00536770c6f55c2f363c0f54bae7a47?rik=nu5zhrGUW34BuA&pid=ImgRaw&r=0">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">HTML</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-block d-lg-flex">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top"
+                                src="https://www.northpointe.org/wp-content/uploads/2018/05/esl_image.jpg">
+
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">ENGLISH</h3> <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-block d-lg-flex">
+                        <div class="card card mb-5 m-lg-0">
+                            <img class="card-img-top"
+                                src="https://th.bing.com/th/id/OIP.lqucgPUVCxrg3IuNRRN1iQHaEG?pid=ImgDet&rs=1">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">CSS</h3> <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-block d-lg-flex">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://i.ytimg.com/vi/AUEk85mojlg/maxresdefault.jpg">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">BOOTSTRAP</h3> <a href="#" class="stretched-link"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center mb-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-block d-lg-flex ">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://i.ytimg.com/vi/AUEk85mojlg/maxresdefault.jpg">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">BOOTSTRAP</h3> <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-block d-lg-flex">
+                        <div class="card card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://i.ytimg.com/vi/IMhuvD3BgnM/maxresdefault.jpg">
+                            <div class="card-body text-center">
+                                <h3 class="card-title  fw-bold">CUBE</h3> <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-block d-lg-flex">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top"
+                                src="https://th.bing.com/th/id/OIP.WSCPcAH-eFlSv5PQoE13egHaEK?pid=ImgDet&rs=1">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">CHESS</h3> <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-block d-lg-flex">
+                        <div class="card">
+                            <img class="card-img-top"
+                                src="https://th.bing.com/th/id/OIP.FXsNeCIjxingANs_EB72CgHaD4?pid=ImgDet&rs=1">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">JS</h3> <a href="#" class="stretched-link"></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="feedback" class="bg-info">
+                <div class="feedback-container  ">
+                    <h1 class="text-center pt-5">Feedback</h1>
+                    <hr class="hr-style ">
+                </div>
+                <div class="row">
+
+                    <!--carosuel-->
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+                        data-interval="1000" data-pause="hover">
+                        <div class="carousel-indicators mb-1">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p>HTML was invented by Tim Berners-Lee, a British Engineer, Computer Scientist and
+                                    Professor at MIT in 1991. Post his
+                                    invention Tim Berners-Lee came to be known as the ‘father of web’. Berners-Lee is
+                                    the founder of World Wide Web
+                                    Foundation and is also the director of World Wide Web Consortium, W3C.</p>
+
+
+                                <img class="feedback-img rounded-circle"
+                                    src="https://th.bing.com/th/id/OIP.V9v_GHF2GicxDbegYXWReQHaGL?w=208&h=180&c=7&r=0&o=5&pid=1.7"
+                                    class="d-block w-100" alt="...">
+                                <h5>Tim Berners-Lee
+                                </h5>
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <p>CSS was first proposed on October 10, 1994. by Hakon Wium Lie
+
+                                    Hakon Wium Lie was the chief technical officer of the Opera Software company and
+                                    co-creator of the CSS web standards.</p>
+                                <img class="feedback-img rounded-circle"
+                                    src="data:image/jpeg;base64,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"
+                                    class="d-block w-100" alt="...">
+                                <h5>Hakon Wium Lie</h5>
+
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <p>Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob
+                                    Thornton at Twitter as a framework
+                                    to encourage consistency across internal tools.</p>
+                                <img class="feedback-img rounded-circle  "
+                                    src="https://d33wubrfki0l68.cloudfront.net/b251cd27c086fb74091dcbbdad080b090a1b787f/1cd33/en/blog/uploads/coding-all-in-one-mark-otto-jacob-thornton.jpg"
+                                    class="d-block w-100" alt="...">
+                                <h5>Mark Otto and Jacob Thornton</h5>
+
+
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!--ens carosuel-->
+                </div>
+            </section>
+
+            <section id="contact-me" class="">
+                <div class="section-title">
+                    <h1 class="text-center text-whi">Contact Me</h1>
+                    <hr class="hr-style">
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form action="mailto:afrosefaria9@gmail.com" method="post" enctype="text/plain"
+                            class="was-validated">
+                            <div class="form-group mb-1">
+                                <label for="fullname">Fullname</label>
+                                <input type="text" class="form-control" name="fullname" required>
+                                <div class="valid-feedback fst-italic">valid</div>
+                                <div class="invalid-feedback text-danger fst-italic  ">
+                                    Enter fullname before
+                                    submitting
+                                    the
+                                    form
+                                </div>
+                            </div>
+                            <div class="form-group mb-1">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" name="email" required>
+
+                            </div>
+                            <div class="form-group mb-1">
+                                <label for="message">Message:</label>
+                                <textarea style="resize:none ;" class="form-control" cols="30"
+                                    rows="4">Please describe why</textarea>
+                            </div>
+                            <br>
+                            <div class="form-group text-center mb-1 ">
+                                <input type="submit" class="btn btn-warning ml-3" value=" Submit">
+                                <input type="reset" class="btn btn-warning ms-3 " value=" Reset">
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            </section>
+
+
+
+        </main>
+        <footer class="bg-dark">
+            <div class="row p-3 mb-3 m-lg-0">
+                <div class="col-lg-7 text-white text-center  text-lg-start">
+
+                    <a class=" text-white" href="#">Home</a>
+                    <a class=" text-white" href="#about-me">About me</a>
+
+
+                    <a href="#"><i class="fab fa-youtube  text-white"></i></a>
+
+                    <a href="#"><i class="fab fa-twitter text-white"></i></a>
+
+                    <a href="#"><i class="fab fa-facebook  text-white"></i></a>
+
+                </div>
+                <div class="col-lg-5 text-white text-center">
+                    <p class="small mb-0 mt-1 text-center">&copy; Copyright Faria Afrose</p>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+
+    <!--bootstrap5-->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
