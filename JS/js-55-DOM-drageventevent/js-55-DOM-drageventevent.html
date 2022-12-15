@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 15px;
+            text-align: justify;
+        }
+
+        div {
+            background-color: rgb(255, 255, 71);
+            height: 15rem;
+            width: 20rem;
+            padding: 15px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ondrag:being dragged
+        ondragend: finished dragging
+        ondragenter: dragged element enters the drop target
+        ondragleave: dragged element leaves the drop target
+        ondragover:dragged element is over the drop target
+        ondragstart: starts to drag
+        ondrop: dropped on the drop target -->
+    <div id="div"></div>
+    <p style="color:blue ;" id="drag1" draggable="true"><b>Drag this paragraph</b></p>
+
+    <script src="./js-55-DOM-drageventevent.js"></script>
+
+</body>
+
+</html>
