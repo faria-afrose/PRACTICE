@@ -1,0 +1,36 @@
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  padding: 0.5em 1em;
+}
+
+button {
+  border-radius: 8px;
+  border: 0.5em solid rgb(255, 255, 255);
+  padding: 1em 2em;
+  font-size: 4em;
+  font-weight: bolder;
+  font-family: inherit;
+  background-color: rgba(130, 244, 9, 0.985);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: black;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
