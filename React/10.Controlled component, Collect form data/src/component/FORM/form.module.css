@@ -1,0 +1,16 @@
+.formGroup {
+  margin-bottom: 10px;
+}
+.formGroupInput {
+  background-color: hsl(60, 1%, 78%);
+  border: 2px solid hsl(41, 96%, 55%);
+  border-radius: 5px;
+  padding: 5px;
+}
+.cardGroup {
+  background-color: hsl(41, 96%, 55%);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 20px;
+}
