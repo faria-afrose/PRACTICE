@@ -1,0 +1,13 @@
+.faqDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq {
+  margin: 1rem;
+  background-color: coral;
+  padding: 1rem;
+  box-shadow: 0.1rem 0.1rem rgba(70, 43, 34, 0.893);
+  border-radius: 20px;
+  color: rgb(8, 8, 8);
+}

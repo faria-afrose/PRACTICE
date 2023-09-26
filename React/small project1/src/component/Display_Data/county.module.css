@@ -1,0 +1,29 @@
+.countries {
+  padding: 3px;
+  display: grid;
+  gap: 2px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .countries {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .countries {
+    grid-template-columns: auto auto auto;
+  }
+}
+.flag {
+  width: auto;
+  height: 175px;
+  border-radius: 15px;
+}
+.btn {
+  background-color: rgb(206, 57, 57);
+  border: none;
+  height: 20px;
+  margin-bottom: 10px;
+  font-size: 7px;
+}
